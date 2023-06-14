@@ -1,7 +1,6 @@
 import { ExternalLink } from 'lucide-react'
 
-interface ProjectsProps {}
-export function Projects(props: ProjectsProps) {
+export function Projects() {
   const projects = [
     {
       title: 'Project 1',
@@ -47,8 +46,8 @@ export function Projects(props: ProjectsProps) {
 
   return (
     <>
-      <section className="rounded-tl-[80px] bg-gradient-to-r from-purple-900 via-blue-900 to-gray-500 md:rounded-tl-[180px]">
-        <div className="container mx-auto max-w-4xl p-4 py-12">
+      <section className="rounded-tl-[80px] bg-gradient-to-r from-purple-900 via-blue-900 to-gray-500 bg-cover md:rounded-tl-[180px] ">
+        <div className="container mx-auto max-w-4xl bg-[url(../assets/bg-stars.svg)] bg-cover p-4 py-12 ">
           <div className="relative p-4 text-center">
             <h2 className="relative z-50 mb-2">
               <span className="mr-2 text-3xl "> Projetos &</span>

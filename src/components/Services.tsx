@@ -24,7 +24,7 @@ export function Services(props: ServicesProps) {
   ]
 
   return (
-    <section className="mx auto max-w-4x1 my-12 p-4">
+    <section className="max-w-4x1 container mx-auto my-12 p-4">
       <div className="p-4 text-center">
         <p className="text-sm uppercase ">O que faço de melhor</p>
 

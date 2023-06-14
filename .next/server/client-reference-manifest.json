@@ -1007,6 +1007,32 @@
         ],
         "async": false
       }
+    },
+    "(app-client)/./src/components/Contact.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/Contact.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/Contact.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "Contact": {
+        "id": "(sc_client)/./src/components/Contact.tsx",
+        "name": "Contact",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -3147,6 +3173,30 @@
     "/Users/jeffinugostosaodapacatuba/portifolio/node_modules/next/dist/esm/shared/lib/head.js#value": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "value",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/jeffinugostosaodapacatuba/portifolio/src/components/Contact.tsx": {
+      "id": "(app-client)/./src/components/Contact.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/jeffinugostosaodapacatuba/portifolio/src/components/Contact.tsx#": {
+      "id": "(app-client)/./src/components/Contact.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/jeffinugostosaodapacatuba/portifolio/src/components/Contact.tsx#Contact": {
+      "id": "(app-client)/./src/components/Contact.tsx",
+      "name": "Contact",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
