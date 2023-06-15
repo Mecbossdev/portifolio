@@ -41,19 +41,16 @@ export function Contact() {
     {
       name: 'WhatsApp',
       description: '+55 85 99820-2691',
-      link: 'https://wa.me/5512982041640?text=Olá...',
       icon: <Twitch className="h-10 w-10" />,
     },
     {
       name: 'Email',
       description: 'fernandesjeferson539@gmail.com',
-      link: 'mailto:joao-test@testemail.com?subject=Olá...',
       icon: <Mail className="h-10 w-10" />,
     },
     {
       name: 'Rua Um',
       description: 'Jardim cearense, 348',
-      link: 'https://goo.gl/maps/4yacADQtLB8jz8zn9?coh=178573&entry=tt',
       icon: <Home className="h-10 w-10" />,
     },
   ]
@@ -140,14 +137,7 @@ export function Contact() {
                 {contact.icon}
                 <div>
                   <p className="font-semibold">{contact.name}</p>
-                  <a
-                    href={contact.link}
-                    target="_blank"
-                    className="text-gray-200 underline underline-offset-2"
-                    rel="noreferrer"
-                  >
-                    {contact.description}
-                  </a>
+                  <span className="text-gray-200 ">{contact.description}</span>
                 </div>
               </div>
             ))}
