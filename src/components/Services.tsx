@@ -26,7 +26,7 @@ export function Services(props: ServicesProps) {
   return (
     <section className="max-w-4x1 container mx-auto my-12 p-4">
       <div className="p-4 text-center">
-        <p className="text-sm uppercase ">O que faço de melhor</p>
+        <p className="text-sm uppercase "></p>
 
         <h2 className="mb-2 font-alt text-3xl font-bold ">
           <span className="mr-2 font-alt ">Meus</span>

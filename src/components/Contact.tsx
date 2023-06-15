@@ -51,7 +51,7 @@ export function Contact() {
       icon: <Mail className="h-10 w-10" />,
     },
     {
-      name: 'Rua um',
+      name: 'Rua Um',
       description: 'Jardim cearense, 348',
       link: 'https://goo.gl/maps/4yacADQtLB8jz8zn9?coh=178573&entry=tt',
       icon: <Home className="h-10 w-10" />,
@@ -135,7 +135,7 @@ export function Contact() {
             {contacts.map((contact, index) => (
               <div
                 key={`contact-${index}`}
-                className="mb-4 flex items-center gap-4 rounded-lg border border-dashed border-gray-400 p-4"
+                className="mb-4 flex items-center gap-4 rounded-lg border border-dashed border-gray-200 p-4"
               >
                 {contact.icon}
                 <div>
@@ -143,7 +143,7 @@ export function Contact() {
                   <a
                     href={contact.link}
                     target="_blank"
-                    className="text-gray-300 underline underline-offset-2"
+                    className="text-gray-200 underline underline-offset-2"
                     rel="noreferrer"
                   >
                     {contact.description}

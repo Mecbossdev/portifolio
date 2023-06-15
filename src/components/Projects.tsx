@@ -3,43 +3,43 @@ import { ExternalLink } from 'lucide-react'
 export function Projects() {
   const projects = [
     {
-      title: 'Project 1',
-      description: 'Descrição',
-      image:
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzR5SKd4N0dv1jn7mmwarEEg8c7bLd_PNldA&usqp=CAU',
-      link: '#',
+      title: 'CRUD',
+      description:
+        'Aplicativo CRUD desenvolvido em React-native com rotas Get, Post do consumo de APIRESTful.',
+      image: 'img/crud.png',
+      link: 'https://github.com/Mecbossdev/app-placehoder-crud',
       coldSpan: 'col-span-1',
     },
     {
-      title: 'Project 1',
-      description: 'Descrição',
-      image:
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzR5SKd4N0dv1jn7mmwarEEg8c7bLd_PNldA&usqp=CAU',
-      link: '#',
+      title: 'E-ecommerce',
+      description:
+        'E-commerce desenvolvido em Nextjs e integrado com API REST.',
+      image: 'img/eecommerce.png',
+      link: 'https://github.com/Mecbossdev/app-delivery',
       coldSpan: 'col-span-1 md:col-span-2',
     },
     {
-      title: 'Project 1',
-      description: 'Descrição',
-      image:
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzR5SKd4N0dv1jn7mmwarEEg8c7bLd_PNldA&usqp=CAU',
-      link: '#',
+      title: 'Verificador',
+      description:
+        'Projeto verificador de pagamento de envio de email e integrado com back-end do nodejs.',
+      image: 'img/verify.png',
+      link: 'https://github.com/Mecbossdev/verify-count',
       coldSpan: 'col-span-1',
     },
     {
-      title: 'Project 1',
-      description: 'Descrição',
-      image:
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzR5SKd4N0dv1jn7mmwarEEg8c7bLd_PNldA&usqp=CAU',
-      link: '#',
+      title: 'Loteria',
+      description:
+        'Aplicativo desenvolvido em Swift, que faz entrega de variações lotericas.',
+      image: 'img/megasenna.png',
+      link: 'https://github.com/Mecbossdev/loteria',
       coldSpan: 'col-span-1',
     },
     {
-      title: 'Project 1',
-      description: 'Descrição',
-      image:
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzR5SKd4N0dv1jn7mmwarEEg8c7bLd_PNldA&usqp=CAU',
-      link: '#',
+      title: 'To-do',
+      description:
+        'To-do-List com funcionalidades de adcionar remover e atualizar tarefa.',
+      image: 'img/todo.png',
+      link: 'https://github.com/Mecbossdev/to-do-react-ts',
       coldSpan: 'col-span-1',
     },
   ]
@@ -67,11 +67,13 @@ export function Projects() {
                 className={`group relative h-52 cursor-default rounded-lg ${project.coldSpan} bg-cover bg-center`}
                 style={{ backgroundImage: `url('${project.image}')` }}
               >
-                <div className="absolute inset-0 flex h-full w-full flex-col items-center justify-center rounded-lg bg-blue-600 opacity-0 transition-opacity group-hover:opacity-100 ">
-                  <h4 className="text-lg">{project.title}</h4>
-                  <p className="mb-4 text-sm">{project.description}</p>
+                <div className="absolute inset-0 flex h-full w-full flex-col items-center justify-center rounded-lg bg-blue-800 p-2 opacity-0 transition-opacity group-hover:opacity-100">
+                  <h4 className="text-lg font-bold">{project.title}</h4>
+                  <p className="mb-4 text-center text-sm text-gray-200">
+                    {project.description}
+                  </p>
                   <a href={project.link} target="_blank" rel="noreferrer">
-                    <ExternalLink className="h-6 w-6" />
+                    <ExternalLink className="h-6 w-6 " />
                   </a>
                 </div>
               </div>
