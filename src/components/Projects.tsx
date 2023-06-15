@@ -55,7 +55,7 @@ export function Projects() {
             </h2>
             <p className="relative text-lg text-gray-200">
               Alguns dos projetos pessoais e que já realizei ao longo da
-              trajetoria com programador.
+              trajetoria como programador.
             </p>
             <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-400/10" />
           </div>

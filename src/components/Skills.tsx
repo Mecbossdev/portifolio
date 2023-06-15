@@ -8,7 +8,7 @@ export function Skills(props: SkillsProps) {
       name: 'Curso de Analise e desenvolvimento de Sistemas | Uniasselvi',
     },
     {
-      name: 'Curso de Desenvolvimento Mobile | Dev Samurai',
+      name: 'Projeto Completo: XD, NodeJs, MongoDB, React Native e React | Udemy',
     },
   ]
 
