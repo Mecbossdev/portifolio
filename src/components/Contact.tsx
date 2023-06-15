@@ -1,6 +1,6 @@
 'use client'
 
-import { Twitch, Disc, Pocket } from 'lucide-react'
+import { Twitch, Disc, Pocket, Mail, Home } from 'lucide-react'
 import { FormEvent, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 
@@ -40,35 +40,30 @@ export function Contact() {
   const contacts = [
     {
       name: 'WhatsApp',
-      description: '+55 12 9.999-9999',
+      description: '+55 85 99820-2691',
       link: 'https://wa.me/5512982041640?text=Olá...',
       icon: <Twitch className="h-10 w-10" />,
     },
     {
       name: 'Email',
-      description: 'joao-test@testemail.com',
+      description: 'fernandesjeferson539@gmail.com',
       link: 'mailto:joao-test@testemail.com?subject=Olá...',
-      icon: <Twitch className="h-10 w-10" />,
+      icon: <Mail className="h-10 w-10" />,
     },
     {
-      name: 'São José dos Campos',
-      description: 'Centro, 123',
+      name: 'Rua um',
+      description: 'Jardim cearense, 348',
       link: 'https://goo.gl/maps/4yacADQtLB8jz8zn9?coh=178573&entry=tt',
-      icon: <Twitch className="h-10 w-10" />,
+      icon: <Home className="h-10 w-10" />,
     },
   ]
   return (
-    <section
-      id="contact"
-      className="border-t border-white/10 bg-blue-800 text-white "
-    >
+    <section id="contact" className="border-t border-white/10 bg-blue-800">
       <div className="container mx-auto max-w-4xl p-4 py-8">
         <div className="mb-6">
-          <h2 className="z-50 mb-2">
-            <span className="font-headline mr-2 text-3xl font-semibold">
-              Fale
-            </span>
-            <span className="font-handwriting text-4xl">Comigo</span>
+          <h2 className="z-50 mb-2 font-alt font-bold">
+            <span className="mr-2 text-3xl ">Fale</span>
+            <span className="text-4xl">Comigo</span>
           </h2>
           <p className="text-sm">
             Entre em contato por formulário ou WhatsApp, com certeza irei poder
@@ -120,7 +115,7 @@ export function Contact() {
               <div>
                 <button
                   type="submit"
-                  className="button flex items-center gap-2 text-blue-700"
+                  className="button flex items-center gap-2 rounded-md bg-white px-4 py-2 text-blue-700"
                   disabled={loading}
                 >
                   {loading && <Disc className="h-4 w-4 animate-spin" />}
@@ -144,7 +139,7 @@ export function Contact() {
               >
                 {contact.icon}
                 <div>
-                  <p className="font-headline font-semibold">{contact.name}</p>
+                  <p className="font-semibold">{contact.name}</p>
                   <a
                     href={contact.link}
                     target="_blank"

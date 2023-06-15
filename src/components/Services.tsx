@@ -28,12 +28,12 @@ export function Services(props: ServicesProps) {
       <div className="p-4 text-center">
         <p className="text-sm uppercase ">O que faço de melhor</p>
 
-        <h2 className="mb-2 font-alt text-4xl font-bold ">
-          <span className="text-3x1 mr-2 font-alt">Meus</span>
-          <span className="font-alt">Serviços</span>
+        <h2 className="mb-2 font-alt text-3xl font-bold ">
+          <span className="mr-2 font-alt ">Meus</span>
+          <span className="font-alt text-blue-500">Serviços</span>
         </h2>
 
-        <p className="text-sm">
+        <p className="text-lg text-gray-200">
           Posso atender uma gama completa de serviços, do front-end ao back-end
           com bancos de dados e sistemas
         </p>

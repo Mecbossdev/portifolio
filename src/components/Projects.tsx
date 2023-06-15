@@ -49,14 +49,15 @@ export function Projects() {
       <section className="rounded-tl-[80px] bg-gradient-to-r from-purple-900 via-blue-900 to-gray-500 bg-cover md:rounded-tl-[180px] ">
         <div className="container mx-auto max-w-4xl bg-[url(../assets/bg-stars.svg)] bg-cover p-4 py-12 ">
           <div className="relative p-4 text-center">
-            <h2 className="relative z-50 mb-2">
-              <span className="mr-2 text-3xl "> Projetos &</span>
-              <span className="text-4xl">Portifolios</span>
+            <h2 className="relative z-50 mb-2 font-alt text-3xl font-bold">
+              <span className="mr-2"> Projetos &</span>
+              <span className="text-blue-500">Portifolios</span>
             </h2>
-            <p className="relative text-sm">
+            <p className="relative text-lg text-gray-200">
               Alguns dos projetos pessoais e que já realizei ao longo da
               trajetoria com programador.
             </p>
+            <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-400/10" />
           </div>
 
           <div className="grid grid-cols-1 gap-4 md:grid-cols-3">

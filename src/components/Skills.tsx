@@ -39,13 +39,11 @@ export function Skills(props: SkillsProps) {
     <section className="mb-60 rounded-br-[80px] bg-purple-900 bg-[url(../assets/bg-stars.svg)] bg-cover md:rounded-br-[180px]">
       <div className="container mx-auto max-w-4xl p-4 py-12">
         <div className="relative mb-4 p-4 text-center">
-          <h2 className="relative z-50 mb-2 font-bold">
-            <span className="font-headline mr-2 text-3xl ">Educação &</span>
-            <span className="font-handwriting text-4xl text-blue-800">
-              Skills
-            </span>
+          <h2 className="relative z-50 mb-2 text-3xl font-bold">
+            <span className="mr-2">Educação &</span>
+            <span className="text-blue-500">Skills</span>
           </h2>
-          <p className="text-bold relative text-sm">
+          <p className="text-bold relative text-lg text-gray-200">
             Front-end Developer | React.js | React Native | Node.js | TypeScript
             | JavaScript
           </p>
