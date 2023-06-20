@@ -49,8 +49,8 @@ export function Contact() {
       icon: <Mail className="h-10 w-10" />,
     },
     {
-      name: 'Rua Um',
-      description: 'Jardim cearense, 348',
+      name: 'Endereço',
+      description: 'Fortaleza-CE',
       icon: <Home className="h-10 w-10" />,
     },
   ]
