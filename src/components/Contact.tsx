@@ -58,8 +58,8 @@ export function Contact() {
     <section id="contact" className="border-t border-white/10 bg-blue-800">
       <div className="container mx-auto max-w-4xl p-4 py-8">
         <div className="mb-6">
-          <h2 className="z-50 mb-2 font-alt font-bold">
-            <span className="mr-2 text-3xl">Fale</span>
+          <h2 className="z-50 mb-2 font-alt text-3xl font-bold">
+            <span className="mr-2">Fale</span>
             <span>Comigo</span>
           </h2>
           <p className="text-sm">
