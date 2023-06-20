@@ -1,6 +1,6 @@
 'use client'
 
-import { Twitch, Disc, Pocket, Mail, Home } from 'lucide-react'
+import { Phone, Disc, Pocket, Mail, Home } from 'lucide-react'
 import { FormEvent, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 
@@ -41,7 +41,7 @@ export function Contact() {
     {
       name: 'WhatsApp',
       description: '+55 85 99820-2691',
-      icon: <Twitch className="h-10 w-10" />,
+      icon: <Phone className="h-10 w-10" />,
     },
     {
       name: 'Email',
@@ -59,8 +59,8 @@ export function Contact() {
       <div className="container mx-auto max-w-4xl p-4 py-8">
         <div className="mb-6">
           <h2 className="z-50 mb-2 font-alt font-bold">
-            <span className="mr-2 text-3xl ">Fale</span>
-            <span className="text-4xl">Comigo</span>
+            <span className="mr-2 text-3xl">Fale</span>
+            <span>Comigo</span>
           </h2>
           <p className="text-sm">
             Entre em contato por formulário ou WhatsApp, com certeza irei poder
