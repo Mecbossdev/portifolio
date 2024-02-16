@@ -29,9 +29,9 @@ export function Projects() {
     {
       title: 'Loteria',
       description:
-        'Aplicativo desenvolvido em Swift, que faz entrega de variações lotericas.',
-      image: 'img/megasenna.png',
-      link: 'https://github.com/Mecbossdev/loteria',
+        'Sistema de listagem de post com requisiçôes de get e post para API dotNet e BD postgresql',
+      image: 'img/postAplication.png',
+      link: 'https://github.com/Mecbossdev/PostAplication_Front',
       coldSpan: 'col-span-1',
     },
     {

@@ -21,8 +21,8 @@ export default function Hero() {
           <span className="italic text-gray-400">ou</span>
           <button className="rounded-md bg-white px-4 py-2 text-gray-400 hover:text-gray-900">
             <a
-              href="TeCurriculum.pdf"
-              download="TeCurriculum.pdf"
+              href="ITcurv.pdf"
+              download="ITcurv.pdf"
               className="flex items-center gap-2 "
               type="application/pdf"
             >
